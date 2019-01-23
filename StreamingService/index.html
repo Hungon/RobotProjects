@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+ *  Copyright (c) 2016 The WebRTC project authors. All Rights Reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree.
+-->
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Streaming Service">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+    <meta itemprop="description" content="Client-side Streaming Service">
+    <meta itemprop="name" content="Streaming Service">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#ffffff">
+
+    <base target="_blank">
+
+    <title>Streaming Service</title>
+
+    <link rel="stylesheet" href="css/main.css"/>
+
+</head>
+<body>
+<div id="container">
+    <h1><a title="Streaming Service">Streaming Service</a> <span>For Pepper</span>
+    </h1>
+
+    <div id="camera" class="panel inactive">
+        <div class="canvas-container">
+            <div class="canvas-background">
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div id="input_form">
+      <form>
+        Enter Robot's IP address:<br>
+        <input id="form_ip_address" type="text" name="ipaddress"><br>
+      </form>
+    </div>
+    <div id="buttons">
+        <button id="callButton">Connect</button>
+    </div>
+    <a href="https://github.com/Hungon/RobotProjects"
+       title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+</div>
+
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+<script src="js/main.js" async></script>
+<script src="js/libs/qi/2/qi.js"></script>
+
+</body>
+</html>
