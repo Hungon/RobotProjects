@@ -6,3 +6,4 @@
 <p>Requirements:</p>
 <li>Pepper</li>
 <li>PC</li>
+<li>Stable Network</li>
